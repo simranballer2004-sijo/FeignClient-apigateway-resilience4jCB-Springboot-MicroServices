@@ -1,3 +1,7 @@
+To start mysql and phpmyAdmin locally :
+		Phpmyadmin command :  phpMyAdmin % php -S localhost:8080
+		For mysql : /usr/local/mysql/bin/mysqladmin -u root -p status
+	
 I have created a config service : which is related to the config repo (in order to get all the config related details for the micro services)
 I have created a Eureka discovery service : basically registers the micro services 
 
